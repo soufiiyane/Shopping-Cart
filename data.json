@@ -1,0 +1,23 @@
+[
+    {
+        "image": "images/hat.jpg",
+        "name": "Relaxed Fit Hat",
+        "price": 12.99,
+        "sizes": ["M","S","XL"],
+        "colors": ["Black","Red","White","Blue"]
+    },
+    {
+        "image": "images/sleev.jpg",
+        "name": "Long Sleevs T-shirt",
+        "price": 17.99,
+        "sizes": ["M","S","XL"],
+        "colors": ["Black","Red","White","Blue"]
+    },
+    {
+        "image": "images/nike.jpg",
+        "name": "Nike New Sneakers",
+        "price": 19.99,
+        "sizes": ["M","S","XL"],
+        "colors": ["Black","Red","White","Blue"]
+    }
+]
