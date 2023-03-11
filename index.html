@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" integrity="sha512-nMNlpuaDPrqlEls3IX/Q56H36qvBASwb3ipuo3MxeWbsQB1881ox0cRv7UPTgBlriqoynt35KjEwgGUeUXIPnw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="left-cart">
+                <h1>Cart</h1>
+                <hr>
+                <div class="card">
+                    <div class="left-card">
+                        <img src="images/hat.jpg"/>
+                    </div>
+                    <div class="right-card">
+                        <div class="right-card-top">
+                            <div class="right-card-top-left">
+                                <h3>Relaxed Fit Hat</h3>
+                                <p><span class="initial-price">12.99$</span>  <span style="color: #282828;">|</span> <span style="color: #54B435;">In Stock</span></p>
+                            </div>
+                            <div class="right-card-top-right ">
+                                <span class="changeble-price">12.99</span>$
+                            </div>
+                        </div>
+                        <div class="right-card-bottom">
+                            <div class="right-card-bottom-left">
+                                <select class="sizes" name="sizes">
+                                    <option selected disabled>size</option>
+                                    <option value="S">S</option>
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                    <option value="Xl">Xl</option>
+                                </select>
+                                <select class="colors" name="colors">
+                                    <option selected disabled>Colors</option>
+                                    <option value="blue">Blue</option>
+                                    <option value="red">Red</option>
+                                    <option value="black">Black</option>
+                                    <option value="white">White</option>
+                                </select>
+                                <div class="quantite">
+                                    <button class="btn-minus">-</button>
+                                    <input class="quantite-input" type="text" value="1" disabled >
+                                    <button class="btn-plus">+</button>
+                                </div>
+                            </div>
+                            <div class="right-card-bottom-right">
+                                <button class="btn-like"><i class="fa-solid fa-heart"></i> Save</button>
+                                <button class="btn-delete"><i class="fa-solid fa-trash"></i> Delete</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="left-card">
+                        <img src="images/sleev.jpg"/>
+                    </div>
+                    <div class="right-card">
+                        <div class="right-card-top">
+                            <div class="right-card-top-left">
+                                <h3>Long Sleevs T-shirt</h3>
+                                <p><span class="initial-price">17.99$</span>  <span style="color: #282828;">|</span> <span style="color: #fe0000;">In Stock</span></p>
+                            </div>
+                            <div class="right-card-top-right">
+                                <span class="changeble-price">17.99</span>$
+                            </div>
+                        </div>
+                        <div class="right-card-bottom">
+                            <div class="right-card-bottom-left">
+                                <select class="sizes" name="sizes">
+                                    <option selected disabled>size</option>
+                                    <option value="S">S</option>
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                    <option value="Xl">Xl</option>
+                                </select>
+                                <select class="colors" name="colors">
+                                    <option selected disabled>Colors</option>
+                                    <option value="blue">Blue</option>
+                                    <option value="red">Red</option>
+                                    <option value="black">Black</option>
+                                    <option value="white">White</option>
+                                </select>
+                                <div class="quantite">
+                                    <button class="btn-minus">-</button>
+                                    <input class="quantite-input" type="text" value="1" disabled >
+                                    <button class="btn-plus">+</button>
+                                </div>
+                            </div>
+                            <div class="right-card-bottom-right">
+                                <button class="btn-like"><i class="fa-solid fa-heart"></i> Save</button>
+                                <button class="btn-delete"><i class="fa-solid fa-trash"></i> Delete</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="left-card">
+                        <img src="images/nike.jpg"/>
+                    </div>
+                    <div class="right-card">
+                        <div class="right-card-top">
+                            <div class="right-card-top-left">
+                                <h3>Nike New Sneakers</h3>
+                                <p><span class="initial-price">19.99$</span> <span style="color: #282828;">|</span> <span style="color: #54B435;">In Stock</span></p>
+                            </div>
+                            <div class="right-card-top-right">
+                                <span class="changeble-price">19.99</span>$
+                            </div>
+                        </div>
+                        <div class="right-card-bottom">
+                            <div class="right-card-bottom-left">
+                                <select class="sizes" name="sizes">
+                                    <option selected disabled>size</option>
+                                    <option value="S">S</option>
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                    <option value="Xl">Xl</option>
+                                </select>
+                                <select class="colors" name="colors">
+                                    <option selected disabled>Colors</option>
+                                    <option value="blue">Blue</option>
+                                    <option value="red">Red</option>
+                                    <option value="black">Black</option>
+                                    <option value="white">White</option>
+                                </select>
+                                <div class="quantite">
+                                    <button class="btn-minus">-</button>
+                                    <input class="quantite-input" type="text" value="1" disabled >
+                                    <button class="btn-plus">+</button>
+                                </div>
+                            </div>
+                            <div class="right-card-bottom-right">
+                                <button class="btn-like"><i class="fa-solid fa-heart"></i> Save</button>
+                                <button class="btn-delete"><i class="fa-solid fa-trash"></i> Delete</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="right-cart">
+                <h3>Delivery</h3>
+                <hr>
+                <div class="shipping-Type">
+                    <div><p>Free</p></div>
+                    <h4>Express 9.99$</h4>
+                </div>
+                <p style="color: #777676; margin-bottom:20px;">Delivery date: June 24,2022</p>
+                <hr>
+                <div class="cuppon">
+                    <input type="text" placeholder="PromoCode">
+                    <button>Apply</button>
+                </div>
+                <p style="color: #777676; margin-bottom:10px;">20% OFF Discount</p>
+                <hr>
+                <div class="subtotal">
+                    <p>Subtotal</p>
+                    <p><span class="total">0</span>$</p>
+                </div>
+                <ul>
+                    <li>
+                        <p>Discount <i class="fa-solid fa-circle-exclamation"></i></p>
+                        <p>(20%) - 16.19$</p>
+                    </li>
+                    <li>
+                        <p>Delivery <i class="fa-solid fa-circle-exclamation"></i></p>
+                        <p>0.00$</p>
+                    </li>
+                    <li>
+                        <p>Tax</p>
+                        <p>+ 14.00$</p>
+                    </li>
+                </ul>
+                <div class="subtotal">
+                    <p>Total</p>
+                    <p><span class="TotalTaxed">90</span>$</p>
+                </div>
+                <button class="process processBtn">Procced to checkout</button>
+                <button class="process" style="background-color: #9c9797;">Continue shopping</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup-container">
+        <div class="pop-up">
+            <h4>Work by: Soufiyane AITMOULAY</h4>
+            <p>this project is a clone of a shopping cart template i found on <a  target="_blank" href="https://dribbble.com/shots/17776489/attachments/12944161?mode=media">dribble</a></p>
+            <p>Technologies used: <span class="teches">HTML/Css/Typescript</span></p>
+            
+            <button class="contactMe"><a  style="color:#212121" href="https://www.linkedin.com/in/soufiiyane/" target="_blank">Contact me</a></button>
+            <button class="remove-popup"><i class="fas fa-times"></i></button>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js" integrity="sha512-2ImtlRlf2VVmiGZsjm9bEyhjGW4dU7B6TNwh/hx/iSByxNENtj3WVE6o/9Lj4TJeVXPi4bnOIMXFIJJAeufa0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $(document).ready(function() {
+            $('.sizes').select2();
+        });
+        $(document).ready(function() {
+            $('.colors').select2();
+        });
+        var exports = {};     
+    </script>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
